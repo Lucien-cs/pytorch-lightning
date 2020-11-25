@@ -65,7 +65,7 @@ class ReplayBuffer:
     Replay Buffer for storing past experiences allowing the agent to learn from them
 
     Args:
-        capacity: size of the buffer
+        capacity: the size of the buffer
     """
 
     def __init__(self, capacity: int) -> None:
@@ -137,7 +137,7 @@ class Agent:
 
         Args:
             net: DQN network
-            epsilon: value to determine likelihood of taking a random action
+            epsilon: value to determine the likelihood of taking a random action
             device: current device
 
         Returns:
